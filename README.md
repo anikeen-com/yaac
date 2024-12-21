@@ -1,5 +1,8 @@
 # yaac - Yet another ACME client
 
+> [!NOTE]
+> This package is a fork of afosto/yaac
+
 Written in PHP, this client aims to be a simplified and decoupled Let’s Encrypt client, based on [ACME V2](https://tools.ietf.org/html/rfc8555).
 
 ## Decoupled from a filesystem or webserver
@@ -32,7 +35,7 @@ client and you can start requesting certificates.
 
 Installing this package is done easily with composer. 
 ```bash
-composer require afosto/yaac
+composer require anikeen/yaac
 ```
 
 ### Instantiate the client
@@ -200,14 +203,3 @@ file_put_contents('private.key', $certificate->getPrivateKey());
 >$domainCertificate = $certificate->getCertificate(false);
 >$intermediateCertificate = $certificate->getIntermediate();
 >```
-
-### Who is using it?
-
-Are you using this package, would love to know. Please send a PR to enlist your project or company. 
-- [Afosto SaaS BV](https://afosto.com)
-- [Aitrex - Free Let's Encrypt SSL Certificate Generator](https://aitrex.com/freessl.php)
-- [Web Whales](https://webwhales.nl)
-- [do.de](https://www.do.de)
-- [punchsalad.com](https://punchsalad.com/ssl-certificate-generator/)
-- [Spreadly](https://spreadly.app)
-- [SslForWeb](https://sslforweb.com)

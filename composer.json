@@ -1,8 +1,9 @@
 {
-  "name": "afosto/yaac",
+  "name": "anikeen/yaac",
   "description": "Yet Another ACME client: a decoupled LetsEncrypt client",
   "type": "package",
   "keywords": [
+    "anikeen",
     "afosto",
     "lets",
     "acme",
@@ -11,9 +12,13 @@
     "encrypt",
     "letsencrypt"
   ],
-  "homepage": "https://afosto.com",
+  "homepage": "https://anikeen.com",
   "license": "Apache-2.0",
   "authors": [
+    {
+      "name": "Anikeen Team",
+      "homepage": "https://anikeen.com"
+    },
     {
       "name": "Afosto Team",
       "homepage": "https://afosto.com"
